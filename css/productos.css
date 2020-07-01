@@ -1,0 +1,145 @@
+    /* margen superior para ver después de la barra menú*/
+    body>div.card.card-cascade {
+        margin-top: 70px;
+    }
+
+    #productos_filter {
+        margin: 0px 0px;
+    }
+
+    #productos>tbody>tr>td:nth-child(1)>div {
+        margin: 0px;
+    }
+
+    #productos>tbody>tr>td:nth-child(1)>div>input {
+        margin: 0px;
+    }
+
+    td {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        vertical-align: middle !important;
+    }
+
+    .text-right {
+        padding-right: 8px !important;
+    }
+
+    #productos>tbody>tr>td:nth-child(1) {
+        background-color: white !important;
+    }
+
+    .acciones {
+        padding: 13px;
+    }
+
+    #productos>tbody>tr>td:nth-child(1)>div>a:hover {
+        color: black;
+    }
+
+    #productos>tbody>tr>td>div>div>a:hover {
+        background-color: lightgray !important;
+        color: black !important;
+    }
+
+    .card {
+        padding: 0px;
+        margin: 15px;
+    }
+
+    body>div.card.card-cascade>div.view.view-cascade.gradient-card-header.blue-gradient>h2 {
+        padding: 0px 0px 0px;
+    }
+
+    body>div.card.card-cascade>div.view.view-cascade.gradient-card-header.blue-gradient {
+        padding: 10px 10px;
+    }
+
+    .card-header-title {
+        text-align: left;
+    }
+
+    body>div.card.card-cascade>div.card-body.card-body-cascade.text-center {
+        padding: 5px;
+    }
+
+    .spinner-grow {
+        margin-left: 50px;
+    }
+
+
+
+    .imagen_producto {
+        margin-left: 20px;
+    }
+
+    .precio_compra {
+        font-size: 20px;
+        color: red;
+    }
+
+    .tarifa_venta {
+        font-size: 20px;
+        color: blue;
+    }
+
+    .margen_real_producto {
+        font-size: 20px;
+        color: green;
+    }
+
+    input[placeholder] {
+        border-top: 0px;
+        border-bottom: 1px solid #ced4da;
+        border-left: 0px;
+        border-right: 0px;
+    }
+
+    input[placeholder]:focus {
+        color: #495057;
+        background-color: #fff;
+        border-bottom: 0.15rem solid #6ba0f3;
+        border-color: #80bdff;
+        outline: 0;
+        box-shadow: 0 0 0 0rem rgba(0, 123, 255, .25);
+    }
+
+    .card-header-title {
+        margin: 0 0 0;
+    }
+
+    .card-header-title>button,
+    .card-header-title>a {
+        margin-top: 4px;
+        margin-bottom: 0px;
+        padding: 4px 15px;
+    }
+
+    /* dimensiones Modal producto */
+    .modal-dialog-producto {
+        max-width: 80% !important;
+        text-align: left;
+    }
+
+    .dropdown-menu.dropdown-light {
+        margin-left: 10px;
+    }
+
+    /* columna acciones */
+    #productos > tbody > tr:nth-child(1) > td:nth-child(1){
+        min-width:120px;
+    }
+    /* oculta fila 1 y 2 , columna 1 */
+    #productos > thead > tr:nth-child(2) > th:nth-child(1){
+        visibility: hidden;
+    }
+    #productos > thead > tr:nth-child(1) > th:nth-child(1){
+        visibility: hidden;
+    }
+
+    
+
+    .img{
+        width: 25px;
+        border: 1px solid lightgray;
+    }
